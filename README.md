@@ -15,6 +15,54 @@ In the first part, we discuss why overlay icons are important and how they can e
 - [Read the Article](https://www.linkedin.com/pulse/importance-overlay-icons-part-1-yashar-abbasalizadeh-rezaei-hqrle/)
 - [View the Code](https://github.com/yRezaei/overlay-icon-series/tree/main/part_1)
 
+## Prerequisites
+
+- **CMake**: Version 3.10 or higher
+- **C++ Compiler**: Supporting C++17 standard
+- **Libraries**: Ensure the following libraries are available on your system:
+  - `user32`
+  - `gdi32`
+  - `shell32`
+  - `gdiplus`
+  - `comctl32`
+  - `Msimg32`
+  
+### Clone the Repository
+
+```bash
+git clone https://github.com/yRezaei/overlay-icon-series.git
+cd overlay-icon-series
+```
+Create a Build Directory
+```bash
+mkdir build
+cd build
+```
+#### Generate Build Files with CMake
+```bash
+cmake ..
+```
+#### Build a Specific Part
+To build and run a specific part, you can use the --target option with cmake --build:
+
+```bash
+cmake --build . --target overlay_icon_p1
+```
+And similarly for part 2 and so on:
+
+```bash
+cmake --build . --target overlay_icon_p2
+```
+#### Running the Application
+Navigate to the Output Directory
+```bash
+cd bin/Release   # or bin/Debug based on your build configuration
+```
+Run the Executable
+```bash
+./overlay_icon_p1.exe
+```
+Ensure that the files directory, which contains the app_icon.png, is correctly copied to the output directory. The application should start, and you can observe the overlay icon functionality in the taskbar.
 
 ## Contributing
 Contributions are welcome! If you have suggestions or improvements, feel free to open an issue or submit a pull request.

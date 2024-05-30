@@ -9,5 +9,4 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # Add subdirectories for each part
 add_subdirectory(part_1)
-# Uncomment the following line when part_2 is ready
-# add_subdirectory(part_2)
+add_subdirectory(part_2)

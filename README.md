@@ -15,6 +15,12 @@ In the first part, we discuss why overlay icons are important and how they can e
 - [Read the Article](https://www.linkedin.com/pulse/importance-overlay-icons-part-1-yashar-abbasalizadeh-rezaei-hqrle/)
 - [View the Code](https://github.com/yRezaei/overlay-icon-series/tree/main/part_1)
 
+### Part 2: Enhancing Application Communication with Overlay Icons
+In the second part of the series, we take the use of overlay icons further by demonstrating how to dynamically update icons within a Windows application. This part covers the implementation of overlay icons for the window, taskbar, and tray icon using the STB library for efficient image processing. By following this guide, you'll learn to create responsive and visually informative interfaces that significantly improve user interaction.
+
+- [Read the Article](https://www.linkedin.com/pulse/importance-overlay-icons-part-2-yashar-abbasalizadeh-rezaei-beoff/)
+- [View the Code](https://github.com/yRezaei/overlay-icon-series/tree/main/part_2)
+
 ## Prerequisites
 
 - **CMake**: Version 3.10 or higher
